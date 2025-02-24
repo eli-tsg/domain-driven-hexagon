@@ -2,7 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { ValidationPipe } from '@nestjs/common';
-// Комментарий для ветки branch1 (3)
+// Комментарий для ветки branch1 (4)
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
